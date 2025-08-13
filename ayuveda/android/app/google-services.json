@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "325632437876",
+    "project_id": "ayuveda-bdab0",
+    "storage_bucket": "ayuveda-bdab0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325632437876:android:dedf4b80ec216692af6b21",
+        "android_client_info": {
+          "package_name": "com.ayuveda.ayuveda"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXHiqbszt1eCEdrOh3r6p58VPFbTyXm80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
