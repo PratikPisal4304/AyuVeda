@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../providers/plant_providers.dart';
+import 'plant_detail_screen.dart';
 
 class HomeScreen extends ConsumerWidget {
   const HomeScreen({super.key});
@@ -32,7 +33,13 @@ class HomeScreen extends ConsumerWidget {
                 title: Text(plant.commonName),
                 subtitle: Text(plant.scientificName, style: const TextStyle(fontStyle: FontStyle.italic)),
                 // We'll add navigation to the detail screen here later
-                onTap: () {}, 
+                onTap: () {
+  Navigator.of(context).push(
+    MaterialPageRoute(
+      builder: (context) => PlantDetailScreen(plantId: plant.id),
+    ),
+  );
+}, 
               );
             },
           );

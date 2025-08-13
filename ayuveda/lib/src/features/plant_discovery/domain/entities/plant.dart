@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 
 // Represents the core properties of a plant in the app.
 class Plant {
